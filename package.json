@@ -4,9 +4,12 @@
   "description": "asincronismo con javascript repaso",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "Juan Diego <icotecc@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
 }
